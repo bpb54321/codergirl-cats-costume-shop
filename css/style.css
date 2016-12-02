@@ -61,9 +61,10 @@ footer h1 {
 .header__navigation {
   position: absolute;
   width: 100%;
-  left: 100%;
   top: 0;
-  z-index: 2; }
+  left: 100%;
+  z-index: 2;
+  background-color: #f26522; }
 
 .header__mobile-menu-button {
   display: inline-block;
@@ -81,3 +82,14 @@ footer h1 {
   width: 100%;
   height: 350px;
   object-fit: cover; }
+
+.off-canvas-container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition-propery: left;
+  transition-duration: 1s; }
+
+.off-canvas-container--slide-left {
+  left: -50%; }

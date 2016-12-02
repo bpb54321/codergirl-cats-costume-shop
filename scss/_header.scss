@@ -4,7 +4,6 @@ $header-top-padding: 12px;
 .header {
   position: relative;
   padding: $header-top-padding $header-side-padding;
-  // height: 50px;
 }
 
 .header__site-title {
@@ -15,9 +14,10 @@ $header-top-padding: 12px;
 .header__navigation {
   position: absolute;
   width: 100%;
-  left: 100%;
   top: 0;
+  left: 100%;
   z-index: 2;
+  background-color: $orange;
 }
 
 .header__mobile-menu-button {
